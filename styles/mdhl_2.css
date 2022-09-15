@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 80vw;
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+a:active{
+    background-color: green;
+}
+
+header{
+    position: relative;
+}
+
+header h1{
+    font-size: 6rem;
+}
+
+header nav{
+    position: absolute;
+    top: 5rem;
+    left: 90rem;
+    z-index: 99;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem;
+    background-color: rgb(59, 91, 204);
+    color: #fff;
+    border: 0.1rem solid #000;
+}
+
+header div{
+    overflow: hidden;
+    height: 40vh;
+    position: relative;
+}
+
+header div img{
+    width: 100%;
+    position: relative;
+    top: -90px;
+    z-index: 1;
+}
+
+header h2{
+    text-align: center;
+    border: 0.1rem solid #000;
+    font-size: 2rem;
+    padding: 0.6rem 0;
+}
+
+main{
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+main img{
+    width: 14rem;
+    margin-right: 5rem;
+}
+
+main dt:first-of-type{
+    margin-top: 1.8rem;
+}
+
+main dd{
+    margin: 0 0 3rem 2rem;
+}
+
+#main-contact div p:first-child{
+    margin: 1.8rem 0;
+}
