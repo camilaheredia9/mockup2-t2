@@ -24,12 +24,13 @@ header{
 
 header h1{
     font-size: 6rem;
+    margin-bottom: 2rem;
 }
 
 header nav{
     position: absolute;
-    top: 5rem;
-    left: 90rem;
+    top: 19%;
+    right: 2%;
     z-index: 99;
 }
 
@@ -76,7 +77,7 @@ main img{
 }
 
 main section{
-    width: 60%;
+    width: 90%;
     margin-top: 1.6rem;
 }
 
@@ -88,3 +89,84 @@ main section h2{
 main section p{
     padding: 0 0 2rem 1rem;
 }
+
+/* ## RULES ## */
+.contenedor-rules{
+    padding-left: 4rem;
+}
+
+.contenedor-rules div{
+    width: 80%;
+    text-align: center;
+}
+
+.contenedor-rules p{
+    padding-left: 0;
+}
+
+.contenedor-rules h3{
+    margin: 3rem 0 2rem;
+}
+
+.contenedor-rules p::first-letter{
+    margin-left: 3rem;
+}
+
+.contenedor-rules li{
+    margin-bottom: 2rem;
+}
+
+.lista-regulations h4,
+.lista-regulations p{
+    display: inline;
+}
+
+.lista-fields li{
+    margin-bottom: 0;
+    list-style-type: lower-alpha;
+}
+
+.contenedor-rules ul:last-of-type{
+    list-style-type: circle;
+    margin-left: 6rem;
+}
+
+.contenedor-rules ul:last-of-type p::first-letter{
+    margin-left: 0;
+}
+
+/* ## GAME INFO ## */
+.contenedor-gameInfo{
+    width: 70%;
+}
+
+.contenedor-gameInfo div h2{
+    text-align: center;
+}
+
+.contenedor-gameInfo div:first-child p{
+    font-style: italic;
+}
+
+.contenedor-gameInfo div:first-child p:last-child{
+    text-decoration: underline;
+}
+
+/* tabla */
+
+.contenedor-gameInfo p span{
+    font-weight: 600;
+}
+
+.contenedor-gameInfo article p:nth-child(2){
+    margin-bottom: 3rem;
+}
+
+.contenedor-gameInfo article div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* resta: en rules:
+modificar li::marker
+*/
