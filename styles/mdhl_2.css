@@ -138,6 +138,7 @@ main section p{
 /* ## GAME INFO ## */
 .contenedor-gameInfo{
     width: 70%;
+    padding-left: 4rem;
 }
 
 .contenedor-gameInfo div h2{
@@ -152,7 +153,19 @@ main section p{
     text-decoration: underline;
 }
 
-/* tabla */
+table{
+    margin: 2rem 0 6rem;
+}
+
+th,
+td{
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+    text-align: left;
+}
+
+table td:first-child{
+    text-align: right;
+}
 
 .contenedor-gameInfo p span{
     font-weight: 600;
