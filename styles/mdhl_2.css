@@ -93,6 +93,7 @@ main section p{
 /* ## RULES ## */
 .contenedor-rules{
     padding-left: 4rem;
+    list-style-position: inside;
 }
 
 .contenedor-rules div{
@@ -114,6 +115,10 @@ main section p{
 
 .contenedor-rules li{
     margin-bottom: 2rem;
+}
+
+.contenedor-rules li::marker{
+    font-weight: 600;
 }
 
 .lista-regulations h4,
@@ -180,6 +185,6 @@ table td:first-child{
     justify-content: space-between;
 }
 
-/* resta: en rules:
-modificar li::marker
-*/
+.lista-allPlay{
+    list-style-position: initial;
+}
