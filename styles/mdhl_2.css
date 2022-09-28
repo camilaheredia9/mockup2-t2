@@ -140,7 +140,7 @@ main section p{
     margin-left: 0;
 }
 
-/* ## GAME INFO ## */
+/* ## game info ## */
 .contenedor-gameInfo{
     width: 70%;
     padding-left: 4rem;
@@ -187,6 +187,27 @@ table td:first-child{
 
 .lista-allPlay{
     list-style-position: initial;
+}
+
+/* - locations - */
+.locations{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.locations h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.locations article{
+    margin: 2rem 0;
+}
+
+.locations h3{
+    text-align: center;
 }
 
 /* formulario de registro */
