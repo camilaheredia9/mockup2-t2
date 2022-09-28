@@ -142,7 +142,7 @@ main section p{
 
 /* ## game info ## */
 .contenedor-gameInfo{
-    width: 70%;
+    width: 90%;
     padding-left: 4rem;
 }
 
@@ -164,8 +164,15 @@ table{
 
 th,
 td{
-    padding: 0.6rem 5rem 0.6rem 0.6rem;
+    padding: 0.6rem 3rem 0.6rem 0.6rem;
     text-align: left;
+}
+
+
+
+td{
+    width: fit-content;
+    height: 20rem;
 }
 
 table td:first-child{
