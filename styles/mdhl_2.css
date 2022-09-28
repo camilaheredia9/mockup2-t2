@@ -188,3 +188,82 @@ table td:first-child{
 .lista-allPlay{
     list-style-position: initial;
 }
+
+/* formulario de registro */
+form{
+    width: 70%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+form div{
+    margin-bottom: 1.5rem;
+}
+
+.datos-personales{
+    margin-bottom: 4rem;
+}
+
+.datos-personales input,
+.info-team input,
+.contenedor-radio input{
+    margin-right: 0.5rem;
+}
+
+.datos-personales{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.datos-personales *{
+    width: 50%;
+}
+
+.datos-personales .completo{
+    width: 100%;
+    display: block;
+}
+
+input{
+    border: none;
+    border-bottom: 0.1rem solid #000;
+}
+
+.completo input{
+    width: 65%;
+}
+
+.contenedor-radio input{
+    width: auto;
+}
+
+.contenedor-radio:last-of-type{
+    width: auto;
+}
+
+.info-team{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.info-team div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+
+.info-team label{
+    width: 100%;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.info-team span{
+    font-weight: bold;   
+}
+
+form p:last-of-type{
+    margin-bottom: 2rem;
+}
